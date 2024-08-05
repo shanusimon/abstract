@@ -1,0 +1,83 @@
+.nav-bar{
+    display: flex;
+    height: 70px;
+    width: 1fr;
+    align-items: center;
+    background-color: white;
+    border-radius: 1px;
+    flex-shrink: 0;
+}
+.nav-bar .right-section{
+    margin-left: 80px;
+    flex: 1;
+    flex-shrink: 0;
+}
+.nav-bar .middle-section{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.nav-bar .left-section{
+    flex: 1;
+    padding-left: 90px;
+}
+.logo-image{
+    width: 125px;
+}
+.middle-section-product,
+.middle-section-templates,
+.middle-section-pricing,
+.middle-section-reviews{
+    margin-right:40px;
+    font-size: 18px;
+    transition: text-decoration 0.15s;
+}
+.login-button{
+    background-color: white;
+    color: rgb(0, 178, 137);
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 178, 137);
+    font-weight: bold;
+    padding-bottom: 9px;
+    padding-left :22px;
+    padding-right :22px;
+    padding-top :12px;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.login-button:hover{
+    background-color: rgb(0, 178, 137);
+    color: white;
+    cursor: pointer;
+}
+.start-free-button{
+    background-color: rgb(0, 178, 137);
+    color: white;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 178, 137);
+    font-weight: bold;
+    padding-bottom: 9px;
+    padding-left :22px;
+    padding-right :22px;
+    padding-top :12px;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right: 10px;    
+}
+.start-free-button:hover{
+    background-color:rgb(0, 167, 128);
+    cursor: pointer;
+}
+.middle-section-product:hover,
+.middle-section-templates:hover,
+.middle-section-pricing:hover,
+.middle-section-reviews:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

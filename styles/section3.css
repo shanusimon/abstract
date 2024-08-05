@@ -1,0 +1,38 @@
+.section-3 .main-heading{
+    font-family: Playfair Display;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.add-ons{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.add-on-1{
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,.5);
+}
+.add-on-1 .heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+.add-on-1 .content{
+    font-weight: 100;
+    font-size: 20px;
+    color: gray;
+}
+.add-on-1 .price{
+    font-weight: bolder;
+    font-size: 30px;
+}

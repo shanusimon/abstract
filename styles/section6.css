@@ -1,0 +1,82 @@
+.section-6{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 1fr;
+    height: 500px;
+    justify-content: space-around;
+    font-family: Roboto;
+    padding-bottom :96px;
+    padding-left :100px;
+    padding-right :10px;
+    padding-top :50px;
+    border-top: solid rgb(238, 238, 238) 1px;
+}
+
+/* column 1  */
+
+.section-6 .column-1 .column-1-heading,
+.section-6 .column-2 .column-2-section1{
+    text-align: start;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+.section-6 .column-1 .column-1-middle,
+.section-6 .column-2 .column-2-section2{
+    color: grey;
+    font-size: 15px;
+    line-height: 25px;
+}
+.section-6 .column-1 .column-1-end{
+    margin-top: 30px;
+}
+.section-6 .column-1 .column-1-end .column-1-end-heading  {
+    color: green;
+    margin-bottom: 8px;
+}
+.section-6 .column-1 .column-1-end .column-1-end-footer{
+    color: grey;
+}
+.section-6 .column-1,
+.section-6 .column-2,
+.section-6 .column-3{
+    width: 250px;
+}
+  
+/* column 2  */
+ 
+.section-6 .column-2 .column-2-section3{
+    margin-top: 25px;
+    line-height: 25px;
+    color: grey;
+    margin-bottom: 25px;
+}
+.section-6 .column-2 .column-2-section4{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-6 .column-2 .column-2-section5{
+    line-height: 23px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+}
+/* column 3  */
+.column-3-section1{
+    text-align: start;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+.column-3-section2,
+.column-2-section5{
+    color: grey;
+    font-size: 15px;
+    line-height: 25px;
+}

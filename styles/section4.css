@@ -1,0 +1,29 @@
+.section-4{
+    display: flex;
+    background-color: rgb(242, 250, 255);
+    width: 700px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px;
+    font-family: Playfair Display;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.section-4-right-section .start-button{
+    background-color: #00b289;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom :22px;
+    padding-left :25px;
+    padding-right :25px;
+    padding-top :22px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+}
+.section-4-right-section{
+    display: flex;
+    align-items: center;
+}
